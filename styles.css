@@ -1,6 +1,53 @@
 body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: Lexend Deca;
 }
 
 .card, .statistics {
   display: flex;
+}
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 8px;
+  width: 1440px;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.main-text {
+  width: 80%;
+}
+
+.headline {
+  color: hsl(0, 0%, 100%);
+}
+
+.keyword {
+  color: hsl(277, 64%, 61%);
+}
+
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.number {
+  color: hsl(0, 0%, 100%);
+}
+
+.category {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+}
+
+.description, .category {
+  font-family: Inter;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
