@@ -1,28 +1,41 @@
 body {
   background-color: hsl(233, 47%, 7%);
   font-family: Lexend Deca;
+  font-size: 15px;
 }
 
 .card, .statistics {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.statistics {
+  justify-content: space-evenly;
 }
 
 .card {
   background-color: hsl(244, 38%, 16%);
   border-radius: 8px;
-  width: 1440px;
+  margin: 80px;
 }
 
-.column-half {
+.column-text, .column-image {
   width: 50%;
 }
 
 .main-text {
-  width: 80%;
+  margin-top: 50px;
+}
+
+.headline, .description {
+  margin: 0 auto;
 }
 
 .headline {
+  letter-spacing: 2px;;
   color: hsl(0, 0%, 100%);
+  width: 65%;
+  margin-bottom: 40px;
 }
 
 .keyword {
@@ -31,6 +44,9 @@ body {
 
 .description {
   color: hsla(0, 0%, 100%, 0.75);
+  width: 65%;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 .number {
