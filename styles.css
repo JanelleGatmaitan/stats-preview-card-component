@@ -23,11 +23,11 @@ body {
   width: 50%;
 }
 
-.main-text {
-  margin-top: 50px;
+.column-text {
+  margin-top: 75px;
 }
 
-.headline, .description {
+.headline, .description, .statistics {
   margin: 0 auto;
 }
 
@@ -49,13 +49,24 @@ body {
   line-height: 25px;
 }
 
+.statistics {
+  margin-top: 60px;
+  width: 95%;
+}
+
+.number, .category {
+  letter-spacing: 2px;
+}
+
 .number {
   color: hsl(0, 0%, 100%);
+  margin-bottom: 5px;
 }
 
 .category {
   color: hsla(0, 0%, 100%, 0.6);
   text-transform: uppercase;
+  margin-top: 0px;
 }
 
 .description, .category {
